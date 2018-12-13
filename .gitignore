@@ -4,8 +4,11 @@
 # Compiled class file
 *.class
 
-# idea ignore
+# Idea ignore
 *.iml
+
+#maven ignore
+target/
 
 # Log file
 *.log
