@@ -1,16 +1,19 @@
-.project
-.idea
-
 # Compiled class file
 *.class
 
 # Idea ignore
+.idea
 *.iml
 *.iws
 *.ipr
 
+#eclipse ignore
+.project
+.settings
+.classpath
+
 #maven ignore
-target/
+target
 
 # Log file
 *.log
