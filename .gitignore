@@ -6,6 +6,8 @@
 
 # Idea ignore
 *.iml
+*.iws
+*.ipr
 
 #maven ignore
 target/
