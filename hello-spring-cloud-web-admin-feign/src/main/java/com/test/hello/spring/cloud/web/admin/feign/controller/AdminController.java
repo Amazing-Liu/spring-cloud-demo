@@ -14,6 +14,8 @@ public class AdminController {
 
     @RequestMapping(value = "sayHi", method = RequestMethod.GET)
     public String sayHi(@RequestParam String message){
-       return adminService.sayHi(message);
+        System.out.println("------------------------------");
+        System.out.println(adminService.getClass().getName());
+        return adminService.sayHi(message);
     }
 }
